@@ -7,3 +7,7 @@ This app can classify the images of 5 sport celebrities - Lionel Messi, Maria Sh
 3. Now under the activated environment run the 'app.py' file with streamlit. (cmd line: 'streamlit run app.py')
 4. Once the app has opened you will be able to see how it works. Choose your image file and recognize whose face it is.
 5. Enjoy the app!
+
+## Note Before you run:
+1. The model.h5 file is large enough for Github. So it is compressed in several 5 mb part and all the part have uploaded. You need to retrieve the compressed file before you run 'app.py'.
+2. Similarly in the 'Datset/images_datset' and 'Dataset/cropped' folders there are several 5 mb compressed files that is needed to be unzipped.
